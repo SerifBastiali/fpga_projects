@@ -22,7 +22,6 @@ architecture arch of alu is
     signal addsub_res : std_logic_vector(n-1 downto 0);
     signal logic_res  : std_logic_vector(n-1 downto 0);
     signal final_res  : std_logic_vector(n-1 downto 0);
-	 signal cin        : std_logic;
     signal cout_addsub: std_logic;
 
 begin
@@ -96,3 +95,4 @@ begin
     dout <= final_res;
 
 end arch;
+
